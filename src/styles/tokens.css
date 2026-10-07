@@ -1,0 +1,10 @@
+/* Original direction: ink, silver, ice. All visual values are centralized. */
+:root {
+ color-scheme: dark;
+ --bg:#0b0e12; --panel:#11161c; --raised:#19212a; --border:#2d3743;
+ --text:#eef2f7; --muted:#a5b0be; --accent:#a6d9f4; --on-accent:#102331;
+ --positive:#99d7bd; --danger:#f3a6ae; --warning:#e7cd92;
+ --font:Arial,Helvetica,sans-serif; --mono:'SFMono-Regular',Consolas,monospace;
+ --radius:12px; --small-radius:7px; --space:8px; --max-width:1280px;
+ --fast:140ms; --shadow:0 16px 48px #0003;
+}

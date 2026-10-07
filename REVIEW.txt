@@ -1,0 +1,6 @@
+Stage 2 review package. Next.js production build and TypeScript validation passed.
+Offline preview contains no external scripts, fonts, images or API calls.
+Responsive breakpoints and reduced-motion handling included.
+Full product pages and integration are intentionally pending the visual review requested in the source brief.
+No hosting, deployment, server startup, wallet signature or real transaction was performed.
+Offline preview verified at 390px and 1440px: no page overflow; dialog and tab interactions passed. Screenshots included.
