@@ -1,6 +1,18 @@
-Stage 2 review package. Next.js production build and TypeScript validation passed.
-Offline preview contains no external scripts, fonts, images or API calls.
-Responsive breakpoints and reduced-motion handling included.
-Full product pages and integration are intentionally pending the visual review requested in the source brief.
-No hosting, deployment, server startup, wallet signature or real transaction was performed.
-Offline preview verified at 390px and 1440px: no page overflow; dialog and tab interactions passed. Screenshots included.
+Feed only. The obsolete kit route, kit.tsx and interface.css have been removed.
+Reference CSS/tokens copied exactly; approved HTML and original PNGs preserved.
+Next.js App Router / TypeScript / Tailwind; Geist via next/font/google.
+
+PASSED: production build, TypeScript, Why disclosures, filters, queued stream
+updates and resume, reduced motion, and 500-post virtualized scrolling.
+No browser runtime errors. No server was started. Nothing was hosted or published.
+
+GEOMETRY: approved HTML vs Next.js matches at 1440, 1100, and 390 CSS pixels.
+PNG IDENTITY: not complete. The supplied screenshots show different text metrics
+and wrapping from the supplied HTML when Geist is loaded in the current browser.
+The exact CSS/font requirements were preserved. Side-by-side screenshots expose
+this difference honestly. Review pixel-metrics.json and layout-metrics.json.
+
+Inherited reference issues deliberately preserved: mobile row overflow, controls
+below 44px, non-grid spacing, live-dot shadow, and Talk instead of Following.
+Other product pages, the new /kit, real wallet operations and live backend
+integration remain deferred until this Feed review.

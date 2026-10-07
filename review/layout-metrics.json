@@ -1,0 +1,683 @@
+[
+  {
+    "width": 1440,
+    "reference": {
+      ".shell": {
+        "x": 60,
+        "y": 0,
+        "width": 1320,
+        "height": 1931.78125,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, system-ui, sans-serif"
+      },
+      ".main": {
+        "x": 348,
+        "y": 0,
+        "width": 636,
+        "height": 1931.78125,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, system-ui, sans-serif"
+      },
+      ".head": {
+        "x": 348,
+        "y": 0,
+        "width": 635,
+        "height": 102,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, system-ui, sans-serif"
+      },
+      ".post": {
+        "x": 348,
+        "y": 102,
+        "width": 635,
+        "height": 135.59375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, system-ui, sans-serif"
+      },
+      ".post:nth-child(2)": {
+        "x": 348,
+        "y": 237.59375,
+        "width": 635,
+        "height": 131.09375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, system-ui, sans-serif"
+      },
+      ".post:nth-child(2) .body": {
+        "x": 420,
+        "y": 279.34375,
+        "width": 543,
+        "height": 43.5,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, system-ui, sans-serif"
+      },
+      ".coin-chip": {
+        "x": 420,
+        "y": 599.53125,
+        "width": 543,
+        "height": 86.234375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, system-ui, sans-serif"
+      },
+      ".mcard": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, system-ui, sans-serif"
+      },
+      ".nav a": {
+        "x": 84,
+        "y": 72.640625,
+        "width": 211,
+        "height": 40,
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "20.3px",
+        "font": "Geist, system-ui, sans-serif"
+      },
+      ".panel": {
+        "x": 1016,
+        "y": 80,
+        "width": 340,
+        "height": 384.4375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, system-ui, sans-serif"
+      },
+      ".wallet": {
+        "x": 84,
+        "y": 917.765625,
+        "width": 211,
+        "height": 58.234375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, system-ui, sans-serif"
+      }
+    },
+    "next": {
+      ".shell": {
+        "x": 60,
+        "y": 0,
+        "width": 1320,
+        "height": 1931.78125,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      },
+      ".main": {
+        "x": 348,
+        "y": 0,
+        "width": 636,
+        "height": 1931.78125,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      },
+      ".head": {
+        "x": 348,
+        "y": 0,
+        "width": 635,
+        "height": 102,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      },
+      ".post": {
+        "x": 348,
+        "y": 102,
+        "width": 635,
+        "height": 135.59375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      },
+      ".post:nth-child(2)": {
+        "x": 348,
+        "y": 237.59375,
+        "width": 635,
+        "height": 131.09375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      },
+      ".post:nth-child(2) .body": {
+        "x": 420,
+        "y": 279.34375,
+        "width": 543,
+        "height": 43.5,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      },
+      ".coin-chip": {
+        "x": 420,
+        "y": 599.53125,
+        "width": 543,
+        "height": 86.234375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      },
+      ".mcard": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      },
+      ".nav a": {
+        "x": 84,
+        "y": 72.640625,
+        "width": 211,
+        "height": 40,
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "20.3px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      },
+      ".panel": {
+        "x": 1016,
+        "y": 80,
+        "width": 340,
+        "height": 384.4375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      },
+      ".wallet": {
+        "x": 84,
+        "y": 917.765625,
+        "width": 211,
+        "height": 58.234375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      }
+    }
+  },
+  {
+    "width": 1100,
+    "reference": {
+      ".shell": {
+        "x": 170,
+        "y": 0,
+        "width": 760,
+        "height": 2083.859375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, system-ui, sans-serif"
+      },
+      ".main": {
+        "x": 290,
+        "y": 0,
+        "width": 616,
+        "height": 2083.859375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, system-ui, sans-serif"
+      },
+      ".head": {
+        "x": 290,
+        "y": 0,
+        "width": 616,
+        "height": 102,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, system-ui, sans-serif"
+      },
+      ".post": {
+        "x": 290,
+        "y": 254.078125,
+        "width": 616,
+        "height": 135.59375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, system-ui, sans-serif"
+      },
+      ".post:nth-child(2)": {
+        "x": 290,
+        "y": 389.671875,
+        "width": 616,
+        "height": 131.09375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, system-ui, sans-serif"
+      },
+      ".post:nth-child(2) .body": {
+        "x": 362,
+        "y": 431.421875,
+        "width": 524,
+        "height": 43.5,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, system-ui, sans-serif"
+      },
+      ".coin-chip": {
+        "x": 362,
+        "y": 751.609375,
+        "width": 524,
+        "height": 86.234375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, system-ui, sans-serif"
+      },
+      ".mcard": {
+        "x": 290,
+        "y": 140.84375,
+        "width": 168,
+        "height": 100.234375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, system-ui, sans-serif"
+      },
+      ".nav a": {
+        "x": 194,
+        "y": 70,
+        "width": 51,
+        "height": 40,
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "20.3px",
+        "font": "Geist, system-ui, sans-serif"
+      },
+      ".panel": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, system-ui, sans-serif"
+      },
+      ".wallet": {
+        "x": 194,
+        "y": 868,
+        "width": 51,
+        "height": 8,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, system-ui, sans-serif"
+      }
+    },
+    "next": {
+      ".shell": {
+        "x": 170,
+        "y": 0,
+        "width": 760,
+        "height": 2083.859375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      },
+      ".main": {
+        "x": 290,
+        "y": 0,
+        "width": 616,
+        "height": 2083.859375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      },
+      ".head": {
+        "x": 290,
+        "y": 0,
+        "width": 616,
+        "height": 102,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      },
+      ".post": {
+        "x": 290,
+        "y": 254.078125,
+        "width": 616,
+        "height": 135.59375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      },
+      ".post:nth-child(2)": {
+        "x": 290,
+        "y": 389.671875,
+        "width": 616,
+        "height": 131.09375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      },
+      ".post:nth-child(2) .body": {
+        "x": 362,
+        "y": 431.421875,
+        "width": 524,
+        "height": 43.5,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      },
+      ".coin-chip": {
+        "x": 362,
+        "y": 751.609375,
+        "width": 524,
+        "height": 86.234375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      },
+      ".mcard": {
+        "x": 290,
+        "y": 140.84375,
+        "width": 168,
+        "height": 100.234375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      },
+      ".nav a": {
+        "x": 194,
+        "y": 70,
+        "width": 51,
+        "height": 40,
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "20.3px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      },
+      ".panel": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      },
+      ".wallet": {
+        "x": 194,
+        "y": 868,
+        "width": 51,
+        "height": 8,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      }
+    }
+  },
+  {
+    "width": 390,
+    "reference": {
+      ".shell": {
+        "x": 0,
+        "y": 52,
+        "width": 390,
+        "height": 2196.609375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, system-ui, sans-serif"
+      },
+      ".main": {
+        "x": 0,
+        "y": 52,
+        "width": 390,
+        "height": 2196.609375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, system-ui, sans-serif"
+      },
+      ".head": {
+        "x": 0,
+        "y": 52,
+        "width": 390,
+        "height": 90,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, system-ui, sans-serif"
+      },
+      ".post": {
+        "x": 0,
+        "y": 294.078125,
+        "width": 390,
+        "height": 131.59375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, system-ui, sans-serif"
+      },
+      ".post:nth-child(2)": {
+        "x": 0,
+        "y": 425.671875,
+        "width": 390,
+        "height": 148.84375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, system-ui, sans-serif"
+      },
+      ".post:nth-child(2) .body": {
+        "x": 62,
+        "y": 465.421875,
+        "width": 312,
+        "height": 65.25,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, system-ui, sans-serif"
+      },
+      ".coin-chip": {
+        "x": 62,
+        "y": 821.109375,
+        "width": 312,
+        "height": 86.234375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, system-ui, sans-serif"
+      },
+      ".mcard": {
+        "x": 0,
+        "y": 180.84375,
+        "width": 168,
+        "height": 100.234375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, system-ui, sans-serif"
+      },
+      ".nav a": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "20.3px",
+        "font": "Geist, system-ui, sans-serif"
+      },
+      ".panel": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, system-ui, sans-serif"
+      },
+      ".wallet": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, system-ui, sans-serif"
+      }
+    },
+    "next": {
+      ".shell": {
+        "x": 0,
+        "y": 52,
+        "width": 390,
+        "height": 2196.609375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      },
+      ".main": {
+        "x": 0,
+        "y": 52,
+        "width": 390,
+        "height": 2196.609375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      },
+      ".head": {
+        "x": 0,
+        "y": 52,
+        "width": 390,
+        "height": 90,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      },
+      ".post": {
+        "x": 0,
+        "y": 294.078125,
+        "width": 390,
+        "height": 131.59375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      },
+      ".post:nth-child(2)": {
+        "x": 0,
+        "y": 425.671875,
+        "width": 390,
+        "height": 148.84375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      },
+      ".post:nth-child(2) .body": {
+        "x": 62,
+        "y": 465.421875,
+        "width": 312,
+        "height": 65.25,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      },
+      ".coin-chip": {
+        "x": 62,
+        "y": 821.109375,
+        "width": 312,
+        "height": 86.234375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      },
+      ".mcard": {
+        "x": 0,
+        "y": 180.84375,
+        "width": 168,
+        "height": 100.234375,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      },
+      ".nav a": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "20.3px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      },
+      ".panel": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      },
+      ".wallet": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "font": "Geist, \"Geist Fallback\", Geist, system-ui, sans-serif"
+      }
+    }
+  }
+]

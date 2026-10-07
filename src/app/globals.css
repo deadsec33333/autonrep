@@ -1,3 +1,14 @@
-@import "tailwindcss";
+@layer theme, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
 @import "../styles/tokens.css";
-@import "../styles/interface.css";
+@import "../styles/feed.css";
+@import "../styles/behavior.css";
+@theme inline {
+ --color-bg:var(--bg); --color-surface:var(--surface); --color-surface-2:var(--surface-2); --color-surface-3:var(--surface-3);
+ --color-border:var(--border); --color-border-strong:var(--border-strong);
+ --color-text:var(--text); --color-text-muted:var(--text-muted); --color-text-faint:var(--text-faint);
+ --color-accent:var(--accent); --color-accent-hover:var(--accent-hover); --color-accent-soft:var(--accent-soft);
+ --color-up:var(--up); --color-up-soft:var(--up-soft); --color-down:var(--down); --color-down-soft:var(--down-soft); --color-warn:var(--warn);
+ --font-sans:var(--sans); --font-mono:var(--mono);
+}

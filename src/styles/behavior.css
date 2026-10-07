@@ -1,0 +1,10 @@
+/* Behavior-only additions; reference layout declarations remain byte-for-byte in feed.css. */
+body{--sans:var(--font-geist),'Geist',system-ui,sans-serif;--mono:var(--font-geist-mono),'Geist Mono',ui-monospace,monospace}
+.preview-notice{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);z-index:10;max-width:calc(100% - 32px);padding:12px 16px;background:var(--surface-2);border:1px solid var(--border-strong);border-radius:8px;font-size:13px;color:var(--text-muted)}
+.list-state{padding:20px;color:var(--text-muted);font-size:14px}
+.skeleton-line{height:12px;margin:8px 0;background:var(--surface-2);border-radius:6px;animation:skeleton 2s var(--ease) infinite}
+@keyframes skeleton{50%{opacity:.5}}
+.feed.virtualized{position:relative}
+.feed.virtualized>.post{position:absolute;top:0;left:0;width:100%}
+@media(max-width:767px){.preview-notice{bottom:calc(64px + env(safe-area-inset-bottom))}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

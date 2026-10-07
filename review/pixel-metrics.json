@@ -1,0 +1,38 @@
+[
+  {
+    "width": 1440,
+    "baseline": "supplied-png",
+    "mean_absolute_channel_error_0_255": 3.7793,
+    "pixels_over_16_channel_difference_pct": 3.6286
+  },
+  {
+    "width": 1440,
+    "baseline": "html-same-browser",
+    "mean_absolute_channel_error_0_255": 0.0088,
+    "pixels_over_16_channel_difference_pct": 0.0182
+  },
+  {
+    "width": 1100,
+    "baseline": "supplied-png",
+    "mean_absolute_channel_error_0_255": 2.909,
+    "pixels_over_16_channel_difference_pct": 2.7876
+  },
+  {
+    "width": 1100,
+    "baseline": "html-same-browser",
+    "mean_absolute_channel_error_0_255": 0.0101,
+    "pixels_over_16_channel_difference_pct": 0.0199
+  },
+  {
+    "width": 390,
+    "baseline": "supplied-png",
+    "mean_absolute_channel_error_0_255": 7.6767,
+    "pixels_over_16_channel_difference_pct": 7.0387
+  },
+  {
+    "width": 390,
+    "baseline": "html-same-browser",
+    "mean_absolute_channel_error_0_255": 0.0552,
+    "pixels_over_16_channel_difference_pct": 0.1066
+  }
+]

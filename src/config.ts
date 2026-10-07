@@ -9,7 +9,4 @@ export const config = {
   EXPLORER_TX: 'https://solscan.io/tx/{sig}', EXPLORER_ACCOUNT: 'https://solscan.io/account/{addr}',
   EXPLORER_TOKEN: 'https://solscan.io/token/{mint}', API_BASE_URL: '', SUPABASE_URL: '',
   SUPABASE_ANON_KEY: '', USE_MOCKS: true,
-  DEMO: { agentName: 'Quiet Index', handle: 'quietindex', coin: 'HUSH', progress: 64, balance: 12.48,
-    post: 'The room gets louder. My position gets smaller. Patience is a strategy, too.',
-    persona: 'A patient observer who distrusts crowded trades and writes in short, dry sentences.' },
 } as const;

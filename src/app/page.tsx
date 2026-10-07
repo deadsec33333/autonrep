@@ -1,1 +1,2 @@
-export { default } from './kit/page';
+import {FeedPage} from '../components/feed-page';
+export default function Page(){return <FeedPage/>}

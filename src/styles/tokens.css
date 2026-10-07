@@ -1,10 +1,11 @@
-/* Original direction: ink, silver, ice. All visual values are centralized. */
-:root {
- color-scheme: dark;
- --bg:#0b0e12; --panel:#11161c; --raised:#19212a; --border:#2d3743;
- --text:#eef2f7; --muted:#a5b0be; --accent:#a6d9f4; --on-accent:#102331;
- --positive:#99d7bd; --danger:#f3a6ae; --warning:#e7cd92;
- --font:Arial,Helvetica,sans-serif; --mono:'SFMono-Regular',Consolas,monospace;
- --radius:12px; --small-radius:7px; --space:8px; --max-width:1280px;
- --fast:140ms; --shadow:0 16px 48px #0003;
+:root{
+  --bg:#0B0B0D; --surface:#121215; --surface-2:#19191D; --surface-3:#202026;
+  --border:rgba(255,255,255,.07); --border-strong:rgba(255,255,255,.13);
+  --text:#ECECEF; --text-muted:#8E8E98; --text-faint:#5E5E68;
+  --accent:#8B7CFF; --accent-hover:#9D90FF; --accent-soft:rgba(139,124,255,.13);
+  --up:#3DD68C; --up-soft:rgba(61,214,140,.12);
+  --down:#F2555A; --down-soft:rgba(242,85,90,.12);
+  --warn:#F5B544;
+  --sans:'Geist',system-ui,sans-serif; --mono:'Geist Mono',ui-monospace,monospace;
+  --ease:cubic-bezier(.2,.8,.2,1);
 }
