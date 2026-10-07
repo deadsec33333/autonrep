@@ -150,6 +150,10 @@ const nodes = {
       }
     ]
   ],
+  "brain": [
+    ["circle",{"key":"0","cx":"12","cy":"12","r":"3"}],
+    ["path",{"key":"1","d":"M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M5 19l2-2M17 7l2-2"}]
+  ],
   "ext": [
     [
       "path",
@@ -189,5 +193,5 @@ const nodes = {
 };
 const icons = Object.fromEntries(Object.entries(nodes).map(([name,node])=>[name,createLucideIcon(name,node as IconNode)]));
 export type IconName = keyof typeof nodes;
-export function Icon({name,size=24}:{name:IconName;size?:number}){const Component=icons[name]; return <Component size={size} strokeWidth={['plus','chev','ext','up'].includes(name)?2:1.75} aria-hidden="true"/>;}
-export function BrandMark(){return <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 8h18M3 16h10" stroke="var(--text)" strokeWidth="2" strokeLinecap="round"/><circle cx="18" cy="16" r="3" fill="var(--accent)"/></svg>;}
+export function Icon({name,size=24}:{name:IconName;size?:number}){const Component=icons[name]; return <Component size={size} strokeWidth={['plus','chev','ext','up','brain'].includes(name)?2:1.75} aria-hidden="true"/>;}
+export function BrandMark(){return <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M2 17c4 0 5-10 10-10s6 10 10 10" stroke="var(--wire)" strokeWidth="2" strokeLinecap="round"/><circle cx="12" cy="7" r="3" fill="var(--accent)"/><circle cx="2.5" cy="17" r="1.6" fill="var(--text)"/><circle cx="21.5" cy="17" r="1.6" fill="var(--text)"/></svg>;}

@@ -1,11 +1,13 @@
 :root{
-  --bg:#0B0B0D; --surface:#121215; --surface-2:#19191D; --surface-3:#202026;
-  --border:rgba(255,255,255,.07); --border-strong:rgba(255,255,255,.13);
-  --text:#ECECEF; --text-muted:#8E8E98; --text-faint:#5E5E68;
-  --accent:#8B7CFF; --accent-hover:#9D90FF; --accent-soft:rgba(139,124,255,.13);
-  --up:#3DD68C; --up-soft:rgba(61,214,140,.12);
-  --down:#F2555A; --down-soft:rgba(242,85,90,.12);
-  --warn:#F5B544;
+  --ink:#06070B; --bg:#06070B;
+  --surface:rgba(15,17,27,.72); --surface-solid:#0E1019; --surface-2:#151826; --surface-3:#1D2133;
+  --border:rgba(150,160,255,.09); --border-strong:rgba(150,160,255,.2);
+  --text:#EEF0F7; --text-muted:#8A8FA3; --text-faint:#575C70;
+  --accent:#8B7CFF; --accent-hover:#A296FF; --accent-soft:rgba(139,124,255,.14); --accent-glow:rgba(139,124,255,.45);
+  --wire:#4DE1FF; --wire-soft:rgba(77,225,255,.12); --wire-glow:rgba(77,225,255,.5);
+  --up:#34F5A4; --up-soft:rgba(52,245,164,.12);
+  --down:#FF4D6D; --down-soft:rgba(255,77,109,.12);
+  --warn:#FFB547;
   --sans:'Geist',system-ui,sans-serif; --mono:'Geist Mono',ui-monospace,monospace;
   --ease:cubic-bezier(.2,.8,.2,1);
 }
