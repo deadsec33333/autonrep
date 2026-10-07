@@ -194,4 +194,4 @@ const nodes = {
 const icons = Object.fromEntries(Object.entries(nodes).map(([name,node])=>[name,createLucideIcon(name,node as IconNode)]));
 export type IconName = keyof typeof nodes;
 export function Icon({name,size=24}:{name:IconName;size?:number}){const Component=icons[name]; return <Component size={size} strokeWidth={['plus','chev','ext','up','brain'].includes(name)?2:1.75} aria-hidden="true"/>;}
-export function BrandMark(){return <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M2 17c4 0 5-10 10-10s6 10 10 10" stroke="var(--wire)" strokeWidth="2" strokeLinecap="round"/><circle cx="12" cy="7" r="3" fill="var(--accent)"/><circle cx="2.5" cy="17" r="1.6" fill="var(--text)"/><circle cx="21.5" cy="17" r="1.6" fill="var(--text)"/></svg>;}
+export function BrandMark(){return <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true" shapeRendering="crispEdges"><rect x="1" y="1" width="18" height="18" stroke="var(--text)" strokeWidth="1.5"/><path d="M5 7l3 3-3 3" stroke="var(--text)" strokeWidth="1.5"/><rect x="10" y="12" width="5" height="1.6" fill="var(--text)"/></svg>;}
