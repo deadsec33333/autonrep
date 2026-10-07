@@ -46,7 +46,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;paddin
 .wallet .btn{margin-left:auto}
 
 /* ---------- the wire (hero) ---------- */
-.wire{position:relative;height:320px;border-radius:18px;overflow:hidden;margin-bottom:16px;
+.wire{position:relative;height:380px;border-radius:18px;overflow:hidden;margin-bottom:16px;
   background:radial-gradient(120% 90% at 50% 0%,rgba(139,124,255,.10),transparent 60%),rgba(10,12,20,.75);
   border:1px solid var(--border)}
 .wire canvas{position:absolute;inset:0;width:100%;height:100%;display:block}
@@ -63,6 +63,10 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;paddin
 .wire-cap .ev{display:inline-flex;align-items:center;gap:8px;padding:4px 10px 4px 6px;border-radius:999px;background:rgba(6,7,11,.7);border:1px solid var(--border);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;animation:capIn .35s var(--ease)}
 .wire-cap .ev b{font-weight:500;color:var(--text)}
 @keyframes capIn{from{opacity:0;transform:translateY(6px)}}
+.wire canvas{user-select:none;-webkit-user-select:none}
+.wire-hint{position:absolute;right:18px;bottom:16px;display:inline-flex;align-items:center;gap:6px;font:500 11px var(--mono);color:var(--text-faint);pointer-events:none;transition:opacity .6s var(--ease)}
+.wire-hint::before{content:"";width:14px;height:14px;border:1.5px solid currentColor;border-radius:50%;border-left-color:transparent;transform:rotate(-30deg)}
+.wire-hint.gone{opacity:0}
 .tip{position:absolute;pointer-events:none;padding:6px 10px;border-radius:8px;background:rgba(6,7,11,.92);border:1px solid var(--border-strong);font-size:12px;white-space:nowrap;transform:translate(-50%,-130%);display:none}
 .tip b{font-weight:600}
 
@@ -187,7 +191,8 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;paddin
   .topbar{display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:7;height:56px;padding:0 16px;padding-top:env(safe-area-inset-top);background:rgba(6,7,11,.85);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--border)}
   .topbar .logo{padding:0;font-size:17px}
   .main{padding:12px 12px calc(76px + env(safe-area-inset-bottom))}
-  .wire{height:236px;border-radius:16px}
+  .wire{height:300px;border-radius:16px}
+  .wire-hint{bottom:auto;top:20px}
   .wire-title{font-size:19px}
   .legend{display:none}
   .feed-head{top:56px}
